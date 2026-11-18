@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>Mungus Cricket Privacy</title>
-<meta name="description" content="Mungus Cricket collects no data. Everything you make in it stays on your device, or in your own iCloud Drive.">
+<meta name="description" content="Mungus Cricket collects no data. Your leagues stay on your device and in your own iCloud, shared only with the people you invite.">
 <style>
   :root {
     --bg: #fbfaf7;
@@ -57,17 +57,17 @@
   <header>
     <p>Mungus Cricket</p>
     <h1>Privacy Policy</h1>
-    <p>Last updated 3 November 2026</p>
+    <p>Last updated 18 November 2026</p>
   </header>
 
   <div class="summary">
-    <p><strong>Mungus Cricket collects no data.</strong> There is no account, no analytics, no tracking and no advertising, and the app makes no network connections of its own. Everything you make in it is kept on your device, or in your own iCloud Drive if you use it.</p>
+    <p><strong>Mungus Cricket collects no data.</strong> There is no account, no analytics, no tracking and no advertising, and the developer runs no servers. The app uses one service, Apple’s iCloud, to keep your leagues in step across your own devices and with anyone you choose to share them with. What it keeps there is in your iCloud, not ours.</p>
   </div>
 
   <h2>What the app collects</h2>
   <p>Nothing. The developer does not receive, store or see anything you do in Mungus Cricket: not your leagues, players, matches or settings, and not any information about you or your device.</p>
   <ul>
-    <li>No sign-in or account of any kind.</li>
+    <li>No sign-in or account of our own. iCloud is the Apple Account you already use.</li>
     <li>No analytics, usage measurement or advertising identifiers.</li>
     <li>No tracking across apps or websites.</li>
     <li>No advertising.</li>
@@ -77,19 +77,39 @@
   <h2>Where your data is kept</h2>
   <p>Mungus Cricket keeps each league (a <em>world</em>) as a folder of ordinary files.</p>
   <ul>
-    <li><strong>On your device.</strong> The Runcible Cricket League and any New World you start are kept in the app’s own storage on your iPhone or iPad. You can see the folder in the Files app, under On My iPhone (or On My iPad) › Mungus Cricket. Like the rest of your device, it is included in your device backups.</li>
-    <li><strong>In your iCloud Drive.</strong> When iCloud Drive is turned on for Mungus Cricket, an Empty World you start is kept in the Mungus Cricket folder of your iCloud Drive, and any world you put in that folder is listed in the app. iCloud Drive is Apple’s service, tied to your Apple Account. The developer has no access to it.</li>
+    <li><strong>On your device.</strong> Every world you play is kept in the app’s own storage on your iPhone or iPad. You can see the folder in the Files app, under On My iPhone (or On My iPad) › Mungus Cricket. Like the rest of your device, it is included in your device backups.</li>
+    <li><strong>In your iCloud.</strong> When you are signed in to iCloud, a world you start is also kept in your own iCloud account, using Apple’s CloudKit, so that your other devices can download it and stay in step. It counts against your iCloud storage, and only you and the people you share it with can read it. The developer has no access to it. When you are offline or signed out, you play on as normal, and your changes wait on the device until iCloud can take them.</li>
+    <li><strong>In iCloud Drive.</strong> Worlds kept in Mungus Cricket’s folder in your iCloud Drive by earlier versions are still listed.</li>
   </ul>
-  <p>Nothing leaves your device unless you send it yourself, for example by sharing a scorecard PDF or copying a league’s folder out of the app.</p>
+  <p>Apart from iCloud, nothing leaves your device unless you send it yourself, for example by sharing a scorecard PDF or copying a world’s folder out of the app.</p>
+
+  <h2>Sharing a world</h2>
+  <p>A world is shared only if its owner chooses to share it. The owner invites people through Apple’s share sheet, either to <em>play</em> (to manage teams and play matches) or to <em>follow</em> (to read only).</p>
+  <ul>
+    <li>Everyone in a shared world can see what is in it: its teams, players, matches and results, and the managers’ names as they were typed into the app. Each person keeps a copy on their own devices, and keeps that copy if they leave or the owner stops sharing.</li>
+    <li>Apple’s screen for managing a share shows the people in it by the name or contact details Apple holds for them. That screen belongs to iOS. Mungus Cricket itself never reads your Apple Account name, email address or phone number.</li>
+    <li>So that a world knows which manager you play as, it records an identifier that iCloud gives your account for this app alone. It means nothing outside that world and that app.</li>
+    <li>While a match is being played, the people in the world can see which device it is being played on, by the name the device has in the app. That name is the device’s model (“iPad”) unless you change it.</li>
+  </ul>
+
+  <h2>Notifications</h2>
+  <p>If you turn on notifications for a shared world, iCloud tells the app when someone else changes it, through Apple’s push notification service, and the app then shows the notification itself. Nothing about this reaches the developer.</p>
 
   <h2>Widgets</h2>
   <p>The Mungus Cricket widgets show results from your own leagues. They read a small summary that the app writes into storage it shares with its widgets on your device. That summary never leaves the device.</p>
+
+  <h2>Test versions (TestFlight)</h2>
+  <p>If you are testing Mungus Cricket through Apple’s TestFlight:</p>
+  <ul>
+    <li>Apple gives the developer what TestFlight gives every developer: the name and email address you were invited with, which builds you installed and when, crash reports, and any feedback or screenshots you choose to send. Apple’s TestFlight terms govern this.</li>
+    <li>Test versions keep a <strong>usage log</strong> on your device. It records when the app comes to the front or goes to the back, when a match starts, resumes, finishes or is abandoned, and when the match screen is shown, together with the build and the names of the world and competition. It is kept in the app’s private storage, it is never synced, and it leaves your device only if you export it from Settings › About and send it yourself. It is there to help with testing. A version released on the App Store will not keep one.</li>
+  </ul>
 
   <h2>Crash reports</h2>
   <p>If you have chosen in your device’s settings to share analytics with app developers, Apple may pass on anonymous crash reports. That is Apple’s system: you can turn it on or off in Settings › Privacy &amp; Security › Analytics &amp; Improvements. Mungus Cricket does not add anything to it.</p>
 
   <h2>Children</h2>
-  <p>Mungus Cricket is suitable for all ages. Because it collects nothing from anyone, it collects nothing from children.</p>
+  <p>Mungus Cricket is suitable for all ages. It collects nothing from anyone, so it collects nothing from children. A world is shared only with people its owner invites.</p>
 
   <h2>Changes to this policy</h2>
   <p>If a future version of Mungus Cricket changes how it handles data, this page will be updated before that version is released, and the date at the top will change.</p>
